@@ -24,17 +24,17 @@ function NavbarSignedOut({ setInputQuery }) {
 		setInputQuery(event.target.value);
 	}
 
-	// function for the login
-	function handleLogIn(event) {
-		event.preventDefault();
-		navigate('/login');
-	}
+	// // function for the login
+	// function handleLogIn(event) {
+	// 	event.preventDefault();
+	// 	navigate('/login');
+	// }
 
-	// function for signUp
-	function handleSignUp(event) {
-		event.preventDefault();
-		navigate('/signup');
-	}
+	// // function for signUp
+	// function handleSignUp(event) {
+	// 	event.preventDefault();
+	// 	navigate('/signup');
+	// }
 
 	//function for new post
 	function handleNewPost(event) {
@@ -65,7 +65,7 @@ function NavbarSignedOut({ setInputQuery }) {
 					/>
 				</Form>
 				<Nav className='d-flex align-items-center justify-content-center'>
-					<Nav.Link
+					{/* <Nav.Link
 						className='d-flex align-items-center justify-content-center'
 						onClick={handleLogIn}>
 						<button className='btn' type='submit'>
@@ -79,7 +79,7 @@ function NavbarSignedOut({ setInputQuery }) {
 						<button className='btn' type='submit'>
 							Sign Up
 						</button>
-					</Nav.Link>
+					</Nav.Link> */}
 
 					<Nav.Link
 						className='d-flex align-items-center justify-content-center'

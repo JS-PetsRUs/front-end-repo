@@ -33,7 +33,10 @@ function App() {
 			<main>
 				<Routes>
 					<Route path='/' element={<Homepage inputQuery={inputQuery} />} />
-					<Route path='/login' element={<LoginPage setLoggedIn={setLoggedIn}/>} />
+					<Route
+						path='/login'
+						element={<LoginPage setLoggedIn={setLoggedIn} />}
+					/>
 					<Route path='/signup' element={<SignupPage />} />
 					<Route path='/newpost' element={<CreatePost />} />
 					<Route path='/editpost/:id' element={<EditPost />} />
