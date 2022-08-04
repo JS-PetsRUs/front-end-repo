@@ -31,7 +31,7 @@ This web application is a social media application that allows users to connect 
 
 ## Installation Instructions
 
-- To visit the site, click [here](https://redoit.netlify.app/)
+- To visit the site, click [here](https://s-redoit.netlify.app/)
 - To work on your own version, fork and clone the repository and you are all set!
 
 ## Contribution Guidelines
